@@ -1,0 +1,132 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+body {
+    background-image: url("images/MLBB_LessStuttering_gameplay-450x253.jpg");
+    background-size: contain;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    background-image: url('images/MLBB_LessStuttering_gameplay-450x253.jpg');
+    background-size: contain;
+    background-position: center;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+/* Video Section */
+.video-container {
+    margin-top: 20px;
+}
+body {
+    background-image: url("images/MLBB_LessStuttering_gameplay.jpg");
+    background-size: contain;
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+/* Content Section */
+.content {
+    padding: 40px 20px;
+    background-color: #1a1a1a;<img src="images/maxresdefault.jpg" alt="MLBB Background" class="background-img">
+    margin: 20px;
+}
+
+.content h2, .content h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.content p, .content ul {
+    font-size: 1rem;
+}
+
+.content ul {
+    list-style-type: square;
+    margin-top: 20px;
+}
+
+.content ul li {
+    margin-bottom: 10px;
+}
+
+/* Hero Gallery */
+.hero-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.hero-gallery img {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Footer */
+footer {
+    background
+}
+.indent{
+    text-indent: 10px;
+}
+.indent2{
+    text-indent: 20px;
+}
+.one{
+    background-color: #1a1a1a;
+}
